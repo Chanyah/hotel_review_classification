@@ -1,0 +1,9 @@
+FINAL MODEL: DistilBERT
+
+JUSTIFICATION:
+DistilBERT achieves a 0.0479 macro F1 improvement (0.6021 vs 0.5542). This exceeds the complexity threshold of 0.02, justifying the additional computational cost.
+
+                             Accuracy  Macro F1  Weighted F1
+Model                                                       
+TF-IDF + LR (tuned)            0.6141    0.5542       0.6161
+DistilBERT lr=2e-05 (tuned)    0.6663    0.6021       0.6629
