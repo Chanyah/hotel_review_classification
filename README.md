@@ -27,7 +27,7 @@ This project investigates whether hotel guest satisfaction ratings can be automa
 | **File** | `tripadvisor_hotel_reviews.csv` |
 | **Key columns** | `Review` (free text), `Rating` (integer 1–5) |
 | **Language** | English |
-| **License** | CC0: Public Domain |
+| **License** | CC BY-NC 4.0 licence |
 
 > **Note:** The dataset file is NOT included in this repository due to its size. Please download it directly from Kaggle (free account required) and place it in the project root directory, or update the `DATA_PATH` variable in the script.
 
